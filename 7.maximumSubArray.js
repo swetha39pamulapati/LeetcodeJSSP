@@ -4,10 +4,8 @@ var MaxSubArray = function(nums){
     let ans  = nums[0];
     let interval = 0;
     for(let i = 0; i<nums.length; i++){
-       interval = interval + nums[i];
-       ans = Math.max(interval, ans);
-       interval = Math.max(0, interval);
-
+       interval = Math.max(nums[i],interval + nums[i]);
+       ans = Math.max(ans, interval);
     }
     return ans;
 }

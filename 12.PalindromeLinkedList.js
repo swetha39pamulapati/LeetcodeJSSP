@@ -33,18 +33,15 @@ class LinkedList {
     reverse(head){
         if (head == null)
             return head;
-        let tempNode = head;
-        let prevNode = head;
-        let currentNode = head.next;
-        prevNode.next = null;
-        while(currentNode != null)
-        {
-            tempNode = currentNode.next;
-            currentNode.next = prevNode;
-            prevNode = currentNode;
-            currentNode = tempNode;
+        let prev  = null;
+        while(head != null){
+            let nextNode = head.next;
+            head.next = prev;
+            prev = head;
+            head = nextNode;
         }
-        return prevNode;
+        return prev;
+
     }
 
 }

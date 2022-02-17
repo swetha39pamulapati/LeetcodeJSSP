@@ -6,13 +6,13 @@ var maxProfit = function(prices){
         if (minPrice > prices[i]) {
             minPrice = prices[i];
         }
-        else if ((prices[i] - minPrice) > maxProfit) {
-            maxProfit = prices[i] - minPrice;
+        else {
+            maxProfit = Math.max(maxProfit,prices[i] - minPrice);
         }
     }
 
     return maxProfit;
 }
-let prices =[7,6,4,3,1];
+let prices =[7,1,5,3,6,4];
 let data = maxProfit(prices);
 console.log(data);

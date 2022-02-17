@@ -9,18 +9,18 @@ class LinkedList {
         this.head = head
     }
     removeElement(head, val){
-        let p = head;
-        while (p != null && p.val == val)
-            p = p.next;
-        let result = p;
-
-        while (p != null)
-        {
-            while (p.next != null && p.next.val == val)
-                p.next = p.next.next;
-            p = p.next;
-        }
-        return result;
+       while(head != null && head.val == val){
+           head = head.next;
+       }
+       let currentNode = head;
+       while(currentNode != null && currentNode.next != null){
+           if(currentNode.next.val == val){
+               currentNode.next = currentNode.next.next;
+           }
+           else
+               currentNode = currentNode.next;
+       }
+       return head;
     }
 }
 

@@ -10,20 +10,12 @@ class LinkedList {
     }
     removeduplicates(head){
 
-        if (head == null || head.next == null)
-            return head;
-        let p1 = head;
-        let p2 = head.next;
-        while(p2 != null){
-if(p1.val == p2.val){
-    p1.next = p2.next;
-    p2.next = null;
-    p2 = p1.next;
-}
-else{
-    p1 = p2;
-    p2 = (p2 != null)? p2.next : null;
-}
+        let currentNode = head;
+        while(currentNode != null && currentNode.next != null){
+            if(currentNode.next.val == currentNode.val)
+                currentNode.next = currentNode.next.next;
+            else
+                currentNode = currentNode.next;
         }
         return head;
     }

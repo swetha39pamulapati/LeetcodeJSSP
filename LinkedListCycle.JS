@@ -10,16 +10,17 @@ class LinkedList {
         this.head = head
     }
     hasCycle(head){
-        let start = head;
-        let end = head.next;
         if (head == null || head.next == null)
             return false;
-        while (start != end)
+        let slow = head;
+        let fast = head.next;
+
+        while (slow != fast)
         {
-            if (end == null || end.next == null)
+            if (fast == null || fast.next == null)
                 return false;
-            start = start.next;
-            end = end.next.next;
+            slow = slow.next;
+            fast = fast.next.next;
 
         }
         return true;
