@@ -9,15 +9,16 @@ class Node
     }
 }
 function diameterOfBinaryTree(root){
-    if (!root) return null;
     let max = 0;
     getHeight(root);
     return max;
     function getHeight(root) {
-        if (!root) return 0; // height is defined to be the number of nodes in the path in this particular question instead of the number of edges
+        if (root == null)
+            return 0;
         let leftHeight = getHeight(root.left);
         let rightHeight = getHeight(root.right);
-        max = Math.max(max, leftHeight + rightHeight);
+        let diameter = leftHeight + rightHeight;
+        max = Math.max(max,diameter);
         return Math.max(leftHeight, rightHeight) + 1;
     }
 }
