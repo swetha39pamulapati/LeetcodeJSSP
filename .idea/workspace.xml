@@ -20,7 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f459a9a-3104-4da0-834e-0e4b58661af3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/59.HouseRobber1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/60.HouseRobber2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/61.CoinChange.JS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62.MaxProdSubArray.JS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/63.LongIncreasingSequence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/64.LongestPalindromicSubString.JS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/65.WordBreak.JS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/66.CombinationSum4.JS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/67.DecodeWays.JS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68.UniquePaths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/69.JumpGame.JS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/70.PalindromicSubString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/71. NumberOfLongestIncreasingSubstring.JS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/52.CombinationSumII.js" beforeDir="false" afterPath="$PROJECT_DIR$/52.CombinationSumII.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +53,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/52.CombinationSumII.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/71. NumberOfLongestIncreasingSubstring.JS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/15.reverseList.js">
       <method v="2" />
     </configuration>
-    <configuration name="algorithms" type="NodeJSConfigurationType" path-to-js-file="52.CombinationSumII.js" working-dir="$PROJECT_DIR$">
+    <configuration name="algorithms" type="NodeJSConfigurationType" path-to-js-file="71. NumberOfLongestIncreasingSubstring.JS" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
   </component>
@@ -68,7 +82,11 @@
       <workItem from="1645126177371" duration="5523000" />
       <workItem from="1645326499469" duration="6655000" />
       <workItem from="1645536488007" duration="7037000" />
-      <workItem from="1645620582504" duration="8682000" />
+      <workItem from="1645620582504" duration="9038000" />
+      <workItem from="1645658307394" duration="1006000" />
+      <workItem from="1645703588223" duration="8753000" />
+      <workItem from="1646268164636" duration="3548000" />
+      <workItem from="1646919376694" duration="6523000" />
     </task>
     <servers />
   </component>
@@ -88,82 +106,82 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645632178321">
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646945976271">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1645632178321" />
-    <state width="571" height="466" key="DebuggerActiveHint" timestamp="1645631105001">
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1646945976271" />
+    <state width="571" height="466" key="DebuggerActiveHint" timestamp="1646936433121">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="571" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1645631105001" />
-    <state x="548" y="163" key="FileChooserDialogImpl" timestamp="1645632177309">
+    <state width="571" height="466" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1646936433121" />
+    <state x="548" y="163" key="FileChooserDialogImpl" timestamp="1646945975448">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="548" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1645632177309" />
-    <state width="1515" height="258" key="GridCell.Tab.0.bottom" timestamp="1645632253937">
+    <state x="548" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1646945975447" />
+    <state width="1515" height="159" key="GridCell.Tab.0.bottom" timestamp="1646937743086">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1645632253937" />
-    <state width="1515" height="258" key="GridCell.Tab.0.center" timestamp="1645632253935">
+    <state width="1515" height="159" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1646937743086" />
+    <state width="1515" height="159" key="GridCell.Tab.0.center" timestamp="1646937743085">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1645632253935" />
-    <state width="1515" height="258" key="GridCell.Tab.0.left" timestamp="1645632253933">
+    <state width="1515" height="159" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1646937743085" />
+    <state width="1515" height="159" key="GridCell.Tab.0.left" timestamp="1646937743085">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1645632253933" />
-    <state width="1515" height="258" key="GridCell.Tab.0.right" timestamp="1645632253936">
+    <state width="1515" height="159" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1646937743085" />
+    <state width="1515" height="159" key="GridCell.Tab.0.right" timestamp="1646937743085">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1645632253936" />
-    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1645632253939">
+    <state width="1515" height="159" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1646937743085" />
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1646936444872">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1645632253939" />
-    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1645632253939">
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1646936444872" />
+    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1646936444872">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1645632253939" />
-    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1645632253938">
+    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1646936444872" />
+    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1646936444872">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1645632253938" />
-    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1645632253939">
+    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1646936444872" />
+    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1646936444872">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1645632253939" />
-    <state width="1515" height="258" key="GridCell.Tab.2.bottom" timestamp="1645632253939">
+    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1646936444872" />
+    <state width="1515" height="258" key="GridCell.Tab.2.bottom" timestamp="1646936444873">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1645632253939" />
-    <state width="1515" height="258" key="GridCell.Tab.2.center" timestamp="1645632253939">
+    <state width="1515" height="258" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1646936444873" />
+    <state width="1515" height="258" key="GridCell.Tab.2.center" timestamp="1646936444872">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1645632253939" />
-    <state width="1515" height="258" key="GridCell.Tab.2.left" timestamp="1645632253939">
+    <state width="1515" height="258" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1646936444872" />
+    <state width="1515" height="258" key="GridCell.Tab.2.left" timestamp="1646936444872">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1645632253939" />
-    <state width="1515" height="258" key="GridCell.Tab.2.right" timestamp="1645632253939">
+    <state width="1515" height="258" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1646936444872" />
+    <state width="1515" height="258" key="GridCell.Tab.2.right" timestamp="1646936444872">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1645632253939" />
-    <state width="1515" height="258" key="GridCell.Tab.3.bottom" timestamp="1645632253940">
+    <state width="1515" height="258" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1646936444872" />
+    <state width="1515" height="258" key="GridCell.Tab.3.bottom" timestamp="1646936444873">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.3.bottom/0.0.1536.816@0.0.1536.816" timestamp="1645632253940" />
-    <state width="1515" height="258" key="GridCell.Tab.3.center" timestamp="1645632253940">
+    <state width="1515" height="258" key="GridCell.Tab.3.bottom/0.0.1536.816@0.0.1536.816" timestamp="1646936444873" />
+    <state width="1515" height="258" key="GridCell.Tab.3.center" timestamp="1646936444873">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.3.center/0.0.1536.816@0.0.1536.816" timestamp="1645632253940" />
-    <state width="1515" height="258" key="GridCell.Tab.3.left" timestamp="1645632253939">
+    <state width="1515" height="258" key="GridCell.Tab.3.center/0.0.1536.816@0.0.1536.816" timestamp="1646936444873" />
+    <state width="1515" height="258" key="GridCell.Tab.3.left" timestamp="1646936444873">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.3.left/0.0.1536.816@0.0.1536.816" timestamp="1645632253939" />
-    <state width="1515" height="258" key="GridCell.Tab.3.right" timestamp="1645632253940">
+    <state width="1515" height="258" key="GridCell.Tab.3.left/0.0.1536.816@0.0.1536.816" timestamp="1646936444873" />
+    <state width="1515" height="258" key="GridCell.Tab.3.right" timestamp="1646936444873">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="258" key="GridCell.Tab.3.right/0.0.1536.816@0.0.1536.816" timestamp="1645632253940" />
+    <state width="1515" height="258" key="GridCell.Tab.3.right/0.0.1536.816@0.0.1536.816" timestamp="1646936444873" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,154 +307,187 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/45.LetterCasePermutations.JS</url>
-          <line>3</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/45.LetterCasePermutations.JS</url>
-          <line>9</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/45.LetterCasePermutations.JS</url>
-          <line>11</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/45.LetterCasePermutations.JS</url>
-          <line>18</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/45.LetterCasePermutations.JS</url>
-          <line>26</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/46.Subsets.js</url>
-          <line>1</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/46.Subsets.js</url>
-          <line>4</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/46.Subsets.js</url>
-          <line>5</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/46.Subsets.js</url>
-          <line>9</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/46.Subsets.js</url>
-          <line>11</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/46.Subsets.js</url>
-          <line>13</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../ppJS/46.Subsets.js</url>
-          <line>12</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/46.Subsets.js</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/46.Subsets.js</url>
           <line>12</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/46.Subsets.js</url>
           <line>5</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/46.Subsets.js</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/49.Permutations.JS</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/49.Permutations.JS</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/52.CombinationSumII.js</url>
           <line>10</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/52.CombinationSumII.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/52.CombinationSumII.js</url>
           <line>13</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/52.CombinationSumII.js</url>
-          <line>16</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/52.CombinationSumII.js</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/52.CombinationSumII.js</url>
           <line>18</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/52.CombinationSumII.js</url>
           <line>19</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>1</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>2</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>3</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>6</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>7</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>9</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>10</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>12</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>11</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>17</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>21</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/56.PalindromePartitioning.JS</url>
+          <line>25</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/57.PhoneNumberCombination.JS</url>
+          <line>14</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/57.PhoneNumberCombination.JS</url>
+          <line>17</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/57.PhoneNumberCombination.JS</url>
+          <line>20</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/64.LongestPalindromicSubString.JS</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/67.DecodeWays.JS</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/67.DecodeWays.JS</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/67.DecodeWays.JS</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/67.DecodeWays.JS</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/67.DecodeWays.JS</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/67.DecodeWays.JS</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/67.DecodeWays.JS</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -14,7 +14,7 @@ function generateCombinationSum(start,candidates, target, list, result){
             if (i > start && candidates[i] == candidates[i - 1])
                 continue;
             if(target-candidates[i]<0)
-                break;
+                continue;
             list.push(candidates[i]);
             generateCombinationSum(i+1,candidates, target-candidates[i], list, result);
             list.pop();
