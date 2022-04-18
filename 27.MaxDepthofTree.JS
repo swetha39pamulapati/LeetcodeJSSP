@@ -9,9 +9,13 @@ class Node
     }
 }
    function maxDepth(root) {
-       if (root == null)
+       if(root == null)
            return 0;
-       return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+       if(root.left == null && root.right == null)
+           return 1;
+       let left = root.left != null ? maxDepth(root.left) : Number.MIN_SAFE_INTEGER;
+       let right = root.right != null ? maxDepth(root.right) : Number.MIN_SAFE_INTEGER;
+       return Math.max(left, right) +1;
 };
 
 function newNode(data)

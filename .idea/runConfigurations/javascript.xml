@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="javascript" type="JavascriptDebugType" useFirstLineBreakpoints="true">
+    <method v="2">
+      <option name="LaunchBrowser.Before.Run" />
+    </method>
+  </configuration>
+</component>

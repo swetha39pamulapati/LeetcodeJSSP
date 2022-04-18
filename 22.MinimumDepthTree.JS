@@ -10,13 +10,13 @@ class Node
 
 let minDepth = function(root) {
 
-        if(!root)
-            return 0;
-        if(!root.left && !root.right)
-            return 1;
-        let left = !root.left? minDepth(root.left) : Number.MAX_SAFE_INTEGER;
-        let right = !root.right ? minDepth(root.right) : Number.MAX_SAFE_INTEGER;
-        return Math.min(left, right) +1;
+    if(root == null)
+        return 0;
+    if(root.left == null && root.right == null)
+        return 1;
+    let left = root.left != null ? minDepth(root.left) : Number.MAX_SAFE_INTEGER;
+    let right = root.right != null ? minDepth(root.right) : Number.MAX_SAFE_INTEGER;
+    return Math.min(left, right) +1;
 }
 
 function newNode(data)
