@@ -1,33 +1,36 @@
 let findNumberOfLIS = function(nums) {
-    if (null == nums || nums.length == 0) return 0;
-    let len = new Array(nums.length).fill(1);   //Length of the Longest Increasing Subsequence which ends with nums[i].
-    let count = new Array(nums.length).fill(1);   //Number of the Longest Increasing Subsequence which ends with nums[i].
+
+    if (nums.length == 0)
+        return 0;
+    let dp = new Array(nums.length).fill(1);
+    let numberOfLisAtIndex = new Array(nums.length).fill(1);
+    let maxLen = 1;
     for (let i = 1; i < nums.length; i++)
     {
         for (let j = 0; j < i; j++)
         {
             if (nums[j] < nums[i])
             {
-                if (len[j] + 1 > len[i])
+                if (dp[j] + 1 > dp[i])
                 {
-                    len[i] = len[j] + 1;
-                    count[i] = count[j];
+                    dp[i] = dp[j] + 1;
+                    numberOfLisAtIndex[i] = numberOfLisAtIndex[j];
                 }
-                else if (len[j] + 1 == len[i])
+                else if (dp[j] + 1 == dp[i])
                 {
-                    count[i] += count[j];
+                    numberOfLisAtIndex[i] += numberOfLisAtIndex[j];
                 }
             }
         }
     }
-
-    let maxlen =Math.max(...len);
+    let maxlen = Math.max(dp);
     let ans = 0;
-    for (let i = 0; i < len.length; i++)
-        if (len[i] == maxlen)
-            ans += count[i];
+    for (let k = 0; k < dp.length; k++)
+    if (dp[k] == maxlen)
+        ans += numberOfLisAtIndex[k];
 
     return ans;
+
 };
 let nums = [1,3,5,4,7];
 console.log(findNumberOfLIS(nums));

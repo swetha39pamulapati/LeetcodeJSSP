@@ -1,5 +1,6 @@
 class Graph {
     constructor(x) {
+        this.E =0;
         this.vertex = x;
         this.adjList = new Array(x);
         for (let i = 0; i < x; i++)
@@ -7,45 +8,34 @@ class Graph {
     }
 
     addEdge(n, e) {
+        this.E++;
         this.adjList[n].push(e);
         this.adjList[e].push(n);
     }
-     isCyclicUtil(v, visited,parent)
-    {
-    visited[v] = true;
-    let i;
-    for(let it of this.adjList[v].values())
+     DFS(v, visited) {
+         visited[v] = true;
+         for (let i of this.adjList[v].values()) {
+             if (!visited[i]) {
+                 this.DFS(i, visited);
+             }
+         }
+     }
+isConnected()
 {
-    i = it;
-
-
-    if (!visited[i])
-{
-    if (this.isCyclicUtil(i, visited, v))
+    let visited = [];
+    this.DFS (0, visited);
+    for(let i = 0; i<this.vertex; i++){
+        if(!visited[i])
+            return false;
+    }
     return true;
-}
-else if (i != parent)
-    return true;
-}
-return false;
-}
-     isTree()
+}     isTree()
     {
-        let visited = new Array(this.vertex).fill(false);
-        for (let i = 0; i < this.vertex; i++)
-        visited[i] = false;
-        if (this.isCyclicUtil(0, visited, -1))
-            return false;
-        for (let u = 0; u < this.vertex; u++)
-        if (!visited[u])
-            return false;
-
-        return true;
+        return this.isConnected() && this.E == this.vertex-1;
     }
 }
 
 const g = new Graph(5);
-
 g.addEdge(0, 1);
 g.addEdge(0,2);
 g.addEdge(0,3);

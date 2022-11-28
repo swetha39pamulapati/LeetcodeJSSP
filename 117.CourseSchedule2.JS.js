@@ -1,5 +1,6 @@
 let canFinish = function (numCourses, prerequisites) {
     const adj = new Map();
+    let list = [];
     for(let i = 0; i<numCourses; i++)
     {
         adj[i] = new Map();
@@ -22,6 +23,7 @@ let canFinish = function (numCourses, prerequisites) {
     while (q.length!=0)
     {
         let u = q.shift();
+        list.push(u);
         if (adj.has(u)) {
             for (const itr of adj.get(u)) {
                 if (--indegree[itr] == 0)
@@ -32,11 +34,11 @@ let canFinish = function (numCourses, prerequisites) {
         cnt++;
     }
     if (cnt != numCourses) {
-        return false;
+        return [];
     }
     else
-        return true;
+        return list;
 };
 
-let numCourses = 2, prerequisites = [[1,0]];
+let numCourses = 4, prerequisites = [[1,0],[2,0],[3,1],[3,2]];
 console.log(canFinish(numCourses,prerequisites));

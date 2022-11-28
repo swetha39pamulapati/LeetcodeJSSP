@@ -14,53 +14,30 @@ function newNode(data)
     return temp;
 }
 let connect = function(root) {
-    if(root == null)
+    if (root == null)
         return null;
-    let levelHead = null; // first node of the next level
-    let prev = null; // last visited node in the next level
-    let curr = root; // current node in the current level
-
-    while(curr != null)
+    let head = root;
+    while(head!= null)
     {
-        while(curr != null)
+        let dummy = new Node();
+        let temp = dummy;
+        while(head!= null)
         {
-            if(curr.left != null)
+            if(head.left!= null)
             {
-                if(prev == null)
-                {
-                    levelHead = curr.left;
-                    prev = curr.left;
-                }
-                else
-                {
-                    prev.next = curr.left;
-                    prev = curr.left;
-                }
+                temp.next = head.left;
+                temp = temp.next;
             }
-
-            if(curr.right != null)
+            if (head.right != null)
             {
-                if(prev == null)
-                {
-                    levelHead = curr.right;
-                    prev = curr.right;
-                }
-                else
-                {
-                    prev.next = curr.right;
-                    prev = curr.right;
-                }
+                temp.next = head.right;
+                temp = temp.next;
             }
-
-            curr = curr.next;
+            head = head.next;
         }
-
-        // move to the next level
-        curr = levelHead;
-        prev = null;
-        levelHead = null;
+        //next level
+        head = dummy.next;
     }
-
     return root;
 }
 let root = null;

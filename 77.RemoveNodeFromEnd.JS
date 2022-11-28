@@ -9,21 +9,24 @@ class LinkedList {
         this.head = head
     }
      removeNthFromEnd = function(head, n) {
-        let dummyHead = new ListNode(0);
-        dummyHead.next = head;
-        let slow = dummyHead;
-        let fast = dummyHead;
-        for(let i = 0; i<=n; i++)
-        {
-            fast = fast.next;
-        }
-        while(fast!= null)
-        {
-            slow = slow.next;
-            fast = fast.next;
-        }
-        slow.next = slow.next.next;// removes the node
-        return dummyHead.next;
+         let p = head;
+         let size =0;
+         while(p!= null){
+             size++;
+             p = p.next;
+         }
+         if(size == n){
+             return head.next;
+         }
+         let i = 1;
+         let index = size-n;
+         let p1 = head;
+         while(i<index){
+             i++;
+             p1 = p1.next;
+         }
+         p1.next = p1.next.next;
+         return head;
     };
 }
 let head = new ListNode(1);
